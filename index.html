@@ -108,11 +108,18 @@
         myGreeting = "Good Afternoon";
         myColor ="green";
         myPic = "afternoon.jpg";
-    }else if (myHour >= 18 && myHour < 24){
+    }else if (myHour >= 18 && myHour < 23){
+        //alert("NOT Afternoon!");
+        myGreeting = "Good Evening";
+        myColor ="red";
+        myPic = "evening.jpg";
+    }
+    else if (myHour >= 23 && myHour < 5){
         //alert("NOT Afternoon!");
         myGreeting = "Good Night";
         myColor ="black";
         myPic = "night.jpg";
+
     }
    
     //add the path to my Pic 
